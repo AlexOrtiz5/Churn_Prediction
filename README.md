@@ -82,7 +82,7 @@
     - Investigated the relationship between different features and the target variable (churn).
 
   2. Data Cleaning and Preparation:
-  -Cleaned and transformed the data:
+  - Cleaned and transformed the data:
     - Converted relevant columns to appropriate data types (e.g., dates, numerical values).
     - Handled categorical variables (e.g., one-hot encoding, label encoding).
     - Created new features (e.g., Membership Duration (Days), Age, Days Since Membership Start).

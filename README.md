@@ -34,10 +34,14 @@
 
 # Technologies 
   List with used technologies, ex:
-  - Python
-  - Pandas
-  - Excel
-  - PowerPoint
+  - Python: The primary programming language used for data analysis, feature engineering, model building, and visualization.
+  - Pandas: A powerful Python library for data manipulation and analysis, including reading, cleaning, and transforming the dataset.
+  - NumPy: Used for numerical operations, especially when working with arrays and matrices of data.
+  - Scikit-learn (sklearn): A machine learning library in Python used for model selection, training, evaluation, and various utility functions.
+  - Matplotlib: A comprehensive library for creating static, interactive, and animated visualizations in Python.
+  - Seaborn: A Python data visualization library based on Matplotlib, providing a high-level interface for drawing attractive and informative statistical graphics.
+  - Joblib: Used for efficiently saving and loading trained machine learning models, allowing for model persistence and reuse.
+  - Jupyter Notebooks (or similar): An interactive environment for writing and running code, as well as documenting the project's steps and findings.
 
 # Project Description
   

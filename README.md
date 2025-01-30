@@ -135,7 +135,32 @@
     - Proposed personalized recommendations based on user preferences to improve content engagement.
 
 # Conclusion
-  Final conclusion
+
+  This project aimed to develop a predictive model for customer churn within the Amazon Prime subscription service using a sample dataset.
+
+  The initial model development, utilizing Logistic Regression, yielded unsatisfactory results with low precision, recall, F1-score, and an AUC-ROC of 0.5, indicating poor predictive performance. These results suggest that the current model is unable to effectively distinguish between churning and non-churning customers.
+
+  ### Possible reasons for this poor performance include:
+  - Data Imbalance: The dataset may be imbalanced, with a significantly larger number of non-churning users compared to churning users. This can bias the model towards predicting the majority class (non-churn) and hinder its ability to accurately identify true churners.
+  - Feature Engineering Limitations: The current set of engineered features may not adequately capture the complex factors driving customer churn.
+  - Model Limitations: Logistic Regression may not be the most suitable model for this particular dataset and problem.
+
+  ### Next Steps:
+
+  To improve model performance, the following steps will be explored:
+  1. Address Data Imbalance: Implement techniques such as oversampling, undersampling, or using class weights to address potential class imbalances in the data.
+  2. Enhance Feature Engineering: Explore more sophisticated feature engineering techniques, such as:
+  - Creating interaction terms between features (e.g., Subscription Plan and Age).
+  - Extracting more nuanced information from Purchase History and Engagement Metrics.
+  - Utilizing external data sources (if available) to enrich feature sets.
+  3. Evaluate Alternative Models: Experiment with different machine learning algorithms, such as Random Forest, Support Vector Machines, and Gradient Boosting Machines, to identify models that may be better suited for this problem.
+  4. Hyperparameter Tuning: Fine-tune the hyperparameters of the selected models to optimize their performance.
+  
+  By addressing these limitations and exploring alternative approaches, we aim to develop a more accurate and reliable churn prediction model that can provide valuable insights for improving customer retention strategies and enhancing the overall customer experience for Amazon Prime.
+
+  Disclaimer: This conclusion is based on the provided model performance metrics. Further analysis and experimentation are necessary to achieve optimal results.
+
+  This conclusion acknowledges the limitations of the current model, provides potential reasons for the poor performance, and outlines a roadmap for future improvements.
   
 # Contact
   linkedin, github
